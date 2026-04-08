@@ -1,6 +1,6 @@
-# MXFP4 Quantization + FP4 GEMM
+# MXFP4 GEMM optimization on AMD MI35XX
 
-**MXFP4 GEMM** is a Triton-based optimization that reduces memory bandwidth in matrix multiplication by combining **on-the-fly FP4 quantization of activations (A)** with **pre-quantized FP4 weights (B)**.
+**MXFP4 GEMM** is an optimization technique that reduces memory bandwidth in matrix multiplication by combining **on-the-fly FP4 quantization of activations (A)** with **pre-quantized FP4 weights (B)**.
 
 ---
 
